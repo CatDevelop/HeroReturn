@@ -1,0 +1,264 @@
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.deps.json
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.runtimeconfig.json
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.pdb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfo.cs
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CopyComplete
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\refint\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.pdb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.genruntimeconfig.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\obj\Debug\net6.0\ref\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Game.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\AssimpNet.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\ATI.TextureConverter.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\CppNet.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.Content.Pipeline.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Nvidia.TextureTools.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\PVRTexLibNET.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpDX.D3DCompiler.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpDX.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpFont.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libassimp.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx-x64\native\libassimp.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\assimp.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\assimp.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libFreeImage.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libPVRTexLibWrapper.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libfreetype6.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvcore.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvimage.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvmath.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvtt.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libpng16.so.16
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffmpeg
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffprobe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libFreeImage.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libPVRTexLibWrapper.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libfreetype6.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvcore.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvimage.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvmath.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvtt.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libpng16.16.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffmpeg
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffprobe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\FreeImage.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\PVRTexLibWrapper.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffmpeg.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffprobe.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\freetype6.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\libmojoshader_64.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\nvtt.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor-active.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Collector.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Woodcutter.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_4.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Game.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_1.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_2.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_3.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_1.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_2.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_3.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor-active.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_1.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_2.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_3.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_4.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Collector.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Woodcutter.xnb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.exe
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.deps.json
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.runtimeconfig.json
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\HeroReturn.pdb
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\AssimpNet.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\ATI.TextureConverter.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\CppNet.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.Content.Pipeline.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\Nvidia.TextureTools.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\PVRTexLibNET.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpDX.D3DCompiler.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpDX.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\SharpFont.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libassimp.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx-x64\native\libassimp.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\assimp.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\assimp.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libFreeImage.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libPVRTexLibWrapper.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libfreetype6.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvcore.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvimage.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvmath.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvtt.so
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libpng16.so.16
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffmpeg
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffprobe
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libFreeImage.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libPVRTexLibWrapper.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libfreetype6.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvcore.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvimage.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvmath.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvtt.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libpng16.16.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffmpeg
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffprobe
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\FreeImage.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\PVRTexLibWrapper.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffmpeg.exe
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffprobe.exe
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\freetype6.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\libmojoshader_64.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\nvtt.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+G:\HeroReturn\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.AssemblyReference.cache
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.GeneratedMSBuildEditorConfig.editorconfig
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfoInputs.cache
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfo.cs
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CoreCompileInputs.cache
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CopyComplete
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.dll
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\refint\HeroReturn.dll
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.pdb
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\HeroReturn.genruntimeconfig.cache
+G:\HeroReturn\HeroReturn\obj\Debug\net6.0\ref\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_LeftWalk.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_New_Game.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Menu.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Left.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Right.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Smithy.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Smithy.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Upgrade_FirstLvl.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturn\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Upgrade.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_LeftWalk.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Game.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_MainMenu2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Menu.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Smithy.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Backgrounds\BACKGROUND_Upgrade_FirstLvl.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_0_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Woodcutter\Woodcutter_0_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor-active.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Misc\cursor.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_1.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_2.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_3.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Objects\Vegetable\OBJECTS_Vegetable_1_4.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Left.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_New_Game.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Right.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Smithy.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Collector.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Summon_Woodcutter.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Upgrade.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\HeroReturn.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\HeroReturn.deps.json
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\HeroReturn.runtimeconfig.json
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\HeroReturn.pdb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\AssimpNet.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\ATI.TextureConverter.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\CppNet.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.Content.Pipeline.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Nvidia.TextureTools.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\PVRTexLibNET.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\SharpDX.D3DCompiler.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\SharpDX.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\SharpFont.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libassimp.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx-x64\native\libassimp.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\assimp.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\assimp.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libFreeImage.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libPVRTexLibWrapper.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libfreetype6.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvcore.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvimage.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvmath.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libnvtt.so
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libpng16.so.16
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffmpeg
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\linux\ffprobe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libFreeImage.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libPVRTexLibWrapper.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libfreetype6.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvcore.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvimage.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvmath.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libnvtt.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libpng16.16.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffmpeg
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\osx\ffprobe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\FreeImage.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\PVRTexLibWrapper.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffmpeg.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\ffprobe.exe
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\freetype6.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\libmojoshader_64.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\nvtt.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.AssemblyInfo.cs
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.csproj.CopyComplete
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\refint\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.pdb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.genruntimeconfig.cache
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\ref\HeroReturn.dll
