@@ -24,6 +24,7 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_3.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_4.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Left.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Map.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_New_Game.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Right.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy.png</File>
@@ -32,6 +33,7 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Upgrade.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

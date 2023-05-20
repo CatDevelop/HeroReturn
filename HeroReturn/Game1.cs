@@ -29,6 +29,7 @@ public class Game1 : Game
     public Button2d RightButton;
     public Button2d SmithyButton;
     public Button2d UpgradeButton;
+    public Button2d MapButton;
 
     int menuState = 0;
     int menuOffset = 0;
@@ -109,6 +110,13 @@ public class Game1 : Game
             new Vector2(152, 124),
             GoTo,
             GameState.SecondUpgrade
+        );
+
+        MapButton = new Button2d("2D\\UI\\BTN_Map",
+            new Vector2(1120, 10),
+            new Vector2(96, 126),
+            GoTo,
+            GameState.Game
         );
 
         Globals.keyboard = new McKeyboard();
@@ -224,7 +232,11 @@ public class Game1 : Game
                     
 
                 if (gameMenuState == 2)
+                {
                     LeftButton.Update(new Vector2(22, 36));
+                    MapButton.Update(new Vector2(48, 63));
+                }
+                    
 
 
                 break;   
@@ -283,7 +295,11 @@ public class Game1 : Game
                     UpgradeButton.Draw(Vector2.Zero);
                 }
                 if (gameMenuMove == 0 && gameMenuState == 2)
+                {
                     LeftButton.Draw(Vector2.Zero);
+                    MapButton.Draw(Vector2.Zero);
+                }
+                    
 
                 break;
 

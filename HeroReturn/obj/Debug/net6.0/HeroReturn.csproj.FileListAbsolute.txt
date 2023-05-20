@@ -262,3 +262,4 @@ C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\Hero
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.pdb
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.genruntimeconfig.cache
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\ref\HeroReturn.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Map.xnb
