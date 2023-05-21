@@ -263,3 +263,12 @@ C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\Hero
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\HeroReturn.genruntimeconfig.cache
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\obj\Debug\net6.0\ref\HeroReturn.dll
 C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\UI\BTN_Map.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Autofac.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\MonoGame.Extended.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\MonoGame.Extended.Graphics.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\MonoGame.Extended.Tiled.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_Walk.sf
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_Collect.sf
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_Collect.xnb
+C:\Users\User\OneDrive\Документы\My works\UrFU\FirstCourse\C#\Game\HeroReturnC\HeroReturn\bin\Debug\net6.0\Content\2D\Heroes\Collector\Collector_Walk.xnb

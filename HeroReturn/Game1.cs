@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection.Metadata;
 using HeroReturn;
 using HeroReturn.Enums;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGame.Extended.Content;
+using MonoGame.Extended.Serialization;
+using MonoGame.Extended.Sprites;
 
 namespace HeroReturn;
 
@@ -73,6 +77,7 @@ public class Game1 : Game
         gameMenuBackground = new Basic2d("2D\\Backgrounds\\BACKGROUND_Menu", new Vector2(-1296, 0), new Vector2(3888, 720));
         smithyBackground = new Basic2d("2D\\Backgrounds\\BACKGROUND_Smithy", new Vector2(648, 360), new Vector2(1296, 720));
         upgradeBackgroundFirstLevel = new Basic2d("2D\\Backgrounds\\BACKGROUND_Upgrade_FirstLvl", new Vector2(648, 360), new Vector2(1296, 720));
+
         // 0 - 3224
         // 1 - 1920
         // 2 - 700
@@ -116,7 +121,7 @@ public class Game1 : Game
             new Vector2(1120, 10),
             new Vector2(96, 126),
             GoTo,
-            GameState.Game
+        GameState.Game
         );
 
         Globals.keyboard = new McKeyboard();
@@ -151,6 +156,7 @@ public class Game1 : Game
 
     protected override void Update(GameTime gameTime)
     {
+        var deltaSeconds = (float)gameTime.ElapsedGameTime.TotalSeconds;
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
             Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
@@ -183,7 +189,7 @@ public class Game1 : Game
                    
                 break;
             case (GameState.Game):
-                gameplay.Update();
+                gameplay.Update(deltaSeconds);
                 break;
             case (GameState.FirstUpgrade):
 

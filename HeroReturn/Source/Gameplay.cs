@@ -24,11 +24,11 @@ public class Gameplay
         ResetWorld(null);
     }
 
-    public void Update()
+    public void Update(float deltaSeconds)
     {
         if(playState == 0)
         {
-            world.Update(Vector2.Zero, Vector2.Zero);
+            world.Update(Vector2.Zero, Vector2.Zero, deltaSeconds);
         }
     }
     public void ResetWorld(object info)

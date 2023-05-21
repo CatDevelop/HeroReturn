@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturn/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp</SourceFile>
-  <SourceTime>2021-09-20T22:48:31+05:00</SourceTime>
-  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturn/HeroReturn/Content/bin/DesktopGL/2D/Heroes/Woodcutter/Woodcutter_0_1_1.xnb</DestFile>
-  <DestTime>2023-05-04T17:09:11.2624645+05:00</DestTime>
+  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp</SourceFile>
+  <SourceTime>2023-05-20T22:14:45.5510167+05:00</SourceTime>
+  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/2D/Heroes/Woodcutter/Woodcutter_0_1_1.xnb</DestFile>
+  <DestTime>2023-05-21T19:09:01.581833+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

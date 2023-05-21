@@ -11,24 +11,35 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using MonoGame.Extended.Sprites;
 #endregion
 namespace HeroReturn;
 
-public class Unit : Basic2d
-{ 
-    public Unit(string path, Vector2 pos, Vector2 dims) : base(path, pos, dims)
+public class Unit
+{
+    public string animation = "rightWalk";
+    private SpriteSheet walkSpriteSheet;
+    private SpriteSheet actionSpriteSheet;
+    public AnimatedSprite sprite;
+    public Vector2 position;
+    public Vector2 offset;
+    public Unit(SpriteSheet walk, SpriteSheet action, string animation, Vector2 pos, Vector2 offset)
     {
-
+        walkSpriteSheet = walk;
+        actionSpriteSheet = action;
+        this.animation = animation;
+        position = pos;
+        this.offset = offset;
     }
 
-    public override void Update(Vector2 offset)
+    public virtual void Update(float deltaSeconds)
     {
-        base.Update(offset);
+        sprite.Update(deltaSeconds);
     }
 
-    public override void Draw(Vector2 offset)
+    public virtual void Draw()
     {
-        base.Draw(offset, Vector2.Zero);
+        Globals.spriteBatch.Draw(sprite, new Vector2(offset.X+position.X, offset.Y+position.Y));
     }
 }
 

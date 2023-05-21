@@ -25,7 +25,7 @@ public class UI
             new Vector2(555, 630), 
             new Vector2(90, 90), 
             SummonCollector, 
-            new Hero(new Vector2(139, 194))
+            null
         );
 
         this.SummonWoodcutter = new Button2d("2D\\UI\\BTN_Summon_Woodcutter",

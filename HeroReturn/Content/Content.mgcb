@@ -133,6 +133,30 @@
 /processorParam:TextureFormat=Color
 /build:2D/Heroes/Collector/Collector_0_1_3.bmp
 
+#begin 2D/Heroes/Collector/Collector_Collect.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Collector/Collector_Collect.png
+
+#begin 2D/Heroes/Collector/Collector_Walk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Collector/Collector_Walk.png
+
 #begin 2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp
 /importer:TextureImporter
 /processor:TextureProcessor

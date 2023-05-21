@@ -14,6 +14,8 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_0_1_1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_0_1_2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_0_1_3.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_Collect.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_Walk.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_3.bmp</File>
@@ -33,6 +35,8 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Upgrade.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

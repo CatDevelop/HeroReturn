@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu.png</SourceFile>
-  <SourceTime>2023-05-21T01:02:01.0652623+05:00</SourceTime>
-  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/2D/Backgrounds/BACKGROUND_MainMenu.xnb</DestFile>
-  <DestTime>2023-05-21T19:09:00.6664955+05:00</DestTime>
+  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_Walk.png</SourceFile>
+  <SourceTime>2023-05-21T17:17:20.9693876+05:00</SourceTime>
+  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/2D/Heroes/Collector/Collector_Walk.xnb</DestFile>
+  <DestTime>2023-05-21T19:16:28.63124+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

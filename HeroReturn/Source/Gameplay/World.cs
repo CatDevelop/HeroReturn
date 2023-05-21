@@ -13,6 +13,10 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using HeroReturn;
 using System.Diagnostics;
+using MonoGame.Extended.Serialization;
+using MonoGame.Extended.Sprites;
+using System.Reflection.Metadata;
+using MonoGame.Extended.Content;
 #endregion
 
 namespace HeroReturn
@@ -21,7 +25,9 @@ namespace HeroReturn
     public class World
     {
         public Basic2d background;
-        public List<Hero> heroes = new();
+        public SpriteSheet collectorSpriteSheetWalk;
+        public SpriteSheet collectorSpriteSheetAction;
+        public List<Collector> heroes = new();
         public List<Woodcutter> woodcutters = new();
         public List<Vegetable> vegetables = new();
 
@@ -30,6 +36,8 @@ namespace HeroReturn
         public World()
         {
             background = new Basic2d("2D\\Backgrounds\\BACKGROUND_Game", new Vector2(640, 360), new Vector2(1280, 720));
+            collectorSpriteSheetWalk = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Walk.sf", new JsonContentLoader());
+            collectorSpriteSheetAction = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Collect.sf", new JsonContentLoader());
 
             GameGlobals.PassHeroes = AddHero;
             GameGlobals.PassWoodcutter = AddWoodcutter;
@@ -45,13 +53,13 @@ namespace HeroReturn
             ui = new UI(AddHero, AddWoodcutter);
         }
 
-        public virtual void Update(Vector2 backgroundOffset, Vector2 heroOffset)
+        public virtual void Update(Vector2 backgroundOffset, Vector2 heroOffset, float deltaSeconds)
         {
             background.Update(backgroundOffset);
 
             for(int i = 0; i < heroes.Count; i++)
             {
-                heroes[i].Update(heroOffset);
+                heroes[i].Update(deltaSeconds);
             }
 
             for (int i = 0; i < woodcutters.Count; i++)
@@ -69,7 +77,7 @@ namespace HeroReturn
 
         public virtual void AddHero(object info)
         {
-            heroes.Add(new Hero(new Vector2(139, 194)));
+            heroes.Add(new Collector(collectorSpriteSheetWalk, collectorSpriteSheetAction));
         }
 
         public virtual void AddWoodcutter(object info)
@@ -93,7 +101,7 @@ namespace HeroReturn
 
             for (int i = 0; i < heroes.Count; i++)
             {
-                heroes[i].Draw(heroOffset, Vector2.Zero, heroes[i].frame);
+                heroes[i].Draw();
             }
 
             for (int i = 0; i < woodcutters.Count; i++)

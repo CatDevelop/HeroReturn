@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturn/HeroReturn/Content/2D/Misc/cursor.png</SourceFile>
-  <SourceTime>2019-01-03T08:11:11.1257425+05:00</SourceTime>
-  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturn/HeroReturn/Content/bin/DesktopGL/2D/Misc/cursor.xnb</DestFile>
-  <DestTime>2023-04-29T06:34:00.1123083+05:00</DestTime>
+  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Misc/cursor.png</SourceFile>
+  <SourceTime>2023-05-20T22:14:45.6555094+05:00</SourceTime>
+  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/2D/Misc/cursor.xnb</DestFile>
+  <DestTime>2023-05-21T19:09:01.5956241+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
