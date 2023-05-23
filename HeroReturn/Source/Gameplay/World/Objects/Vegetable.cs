@@ -13,46 +13,60 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.IO;
 using System.Diagnostics;
+using MonoGame.Extended.Sprites;
 #endregion
 namespace HeroReturn;
 
-public class Vegetable : Basic2d
+public class Vegetable : Object
 {
-    private int direction = 1;
-    public int frame = 1;
+    public int level = 1;
     public int frameDelay = 0;
+    public bool isCollecting = false;
     private Random rnd = new Random();
-    public Vegetable(Vector2 pos) : 
-        base("2D\\Objects\\Vegetable\\OBJECTS_Vegetable_1_1",
-        "2D\\Objects\\Vegetable\\OBJECTS_Vegetable_1_2",
-        "2D\\Objects\\Vegetable\\OBJECTS_Vegetable_1_3", 
-        "2D\\Objects\\Vegetable\\OBJECTS_Vegetable_1_4", 
-        pos, 
-        new Vector2(45, 42))
+    public Vegetable(SpriteSheet vegetableSpriteSheet, Vector2 pos) :
+        base(vegetableSpriteSheet, "firstLevel", pos, new Vector2(22.5f, 24))
     {
- 
+
     }
 
-    public override void Update(Vector2 offset)
+    public void Update(float deltaSeconds, int level)
     {
-        base.Update(offset);
-        if(frameDelay > 2000)
+        base.UpdateObject(deltaSeconds);
+        if (animation.IsPlaying)
+            animation.Pause();
+
+        if (frameDelay > 10000 && !animation.IsComplete)
         {
-            frame = frame % 4 + 1;
+            animation.Play();
             frameDelay = 0;
         }
-           
 
-        frameDelay += rnd.Next(1, 50);
+        if (level != this.level)
+        {
+            this.level = level;
+            switch (level)
+            {
+                case 1:
+                    animation = sprite.Play("firstLevel");
+                    break;
+                case 2:
+                    animation = sprite.Play("secondLevel");
+                    break;
+                case 3:
+                    animation = sprite.Play("thirdLevel");
+                    break;
+            }
+
+        }
 
 
-
-        Debug.WriteLine(frame);
+        if (!animation.IsComplete)
+            frameDelay += rnd.Next(-40, 100);
     }
 
-    public override void Draw(Vector2 offset)
+    public override void Draw()
     {
-        base.Draw(offset, Vector2.Zero, frame);
+        base.Draw();
     }
 }
 

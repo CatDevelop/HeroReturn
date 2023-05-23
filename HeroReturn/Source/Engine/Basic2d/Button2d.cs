@@ -16,16 +16,18 @@ namespace HeroReturn;
 public class Button2d : Basic2d
 {
     public bool isPressed, isHovered;
+    SoundEffect pressKey;
 
     public object info;
 
     PassObject ButtonClicked;
 
-    public Button2d(string path, Vector2 pos, Vector2 dims, PassObject buttonClicked, object info) : base(path, pos, dims)
+    public Button2d(string path, Vector2 pos, Vector2 dims, PassObject buttonClicked, object info, SoundEffect pressKey) : base(path, pos, dims)
     {
         ButtonClicked = buttonClicked;
         isPressed = false;
-        this.info = info; 
+        this.info = info;
+        this.pressKey = pressKey;
     }
 
     public override void Update(Vector2 offset)
@@ -39,6 +41,7 @@ public class Button2d : Basic2d
                 isPressed = true;
             } else if(Globals.mouse.LeftClickRelease())
             {
+                pressKey.Play();
                 RunBtnClick();
             }
         } else {

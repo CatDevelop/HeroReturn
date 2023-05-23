@@ -102,7 +102,6 @@ public class Basic2d
 
     public virtual void Draw(Vector2 offset, Vector2 origin, int frame)
     {
-        Debug.WriteLine("DRAW HERO "+ frame);
         if (frame == 1) 
         {
             if (texture1 != null)

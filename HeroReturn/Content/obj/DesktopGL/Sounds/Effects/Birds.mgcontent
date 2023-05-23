@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Birds.wav</SourceFile>
+  <SourceTime>2023-05-24T02:56:00.6692323+05:00</SourceTime>
+  <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/Sounds/Effects/Birds.xnb</DestFile>
+  <DestTime>2023-05-24T02:56:32.547685+05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2022-07-26T16:44:56+05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/Sounds/Effects/Birds.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

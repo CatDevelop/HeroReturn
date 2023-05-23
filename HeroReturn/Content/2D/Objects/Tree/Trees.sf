@@ -1,0 +1,24 @@
+{
+  "textureAtlas": {
+    "texture": "Trees.png",
+    "regionWidth": 120,
+    "regionHeight": 156
+  },
+  "cycles": {
+    "firstLevel": {
+      "frames": [0,1,2,3],
+      "isLooping": false,
+      "frameDuration": 0.02
+    },
+    "secondLevel": {
+      "frames": [4,5,6,7],
+      "isLooping": false,
+      "frameDuration": 0.02
+    },
+    "thirdLevel": {
+      "frames": [8,9,10,11],
+      "isLooping": false,
+      "frameDuration": 0.02
+    }
+  }
+}

@@ -25,32 +25,55 @@ namespace HeroReturn
     public class World
     {
         public Basic2d background;
-        public SpriteSheet collectorSpriteSheetWalk;
-        public SpriteSheet collectorSpriteSheetAction;
+        public SpriteSheet collectorWalkSpriteSheet, collectorActionSpriteSheet;
+        public SpriteSheet woodcutterWalkSpriteSheet, woodcutterActionSpriteSheet;
+        public SpriteSheet treeSpriteSheet, vegetableSpriteSheet;
         public List<Collector> heroes = new();
         public List<Woodcutter> woodcutters = new();
         public List<Vegetable> vegetables = new();
+        public List<Tree> trees = new();
+
+        public SoundEffect getMoneySound;
+        public SoundEffect woodcutterActionSound;
+
+        public FinanceController finance;
 
         public UI ui;
 
-        public World()
+        public World(FinanceController financeController, SoundEffect pressKey)
         {
+            finance = financeController;
+            var font = Globals.content.Load<SpriteFont>("Fonts/WorldMoneyFont");
             background = new Basic2d("2D\\Backgrounds\\BACKGROUND_Game", new Vector2(640, 360), new Vector2(1280, 720));
-            collectorSpriteSheetWalk = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Walk.sf", new JsonContentLoader());
-            collectorSpriteSheetAction = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Collect.sf", new JsonContentLoader());
+            collectorWalkSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Walk.sf", new JsonContentLoader());
+            collectorActionSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Collector\\Collector_Collect.sf", new JsonContentLoader());
 
-            GameGlobals.PassHeroes = AddHero;
+            woodcutterWalkSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Woodcutter\\Woodcutter_Walk.sf", new JsonContentLoader());
+            woodcutterActionSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Heroes\\Woodcutter\\Woodcutter_Action.sf", new JsonContentLoader());
+
+            treeSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Objects\\Tree\\Trees.sf", new JsonContentLoader());
+            vegetableSpriteSheet = Globals.content.Load<SpriteSheet>("2D\\Objects\\Vegetable\\Vegetables.sf", new JsonContentLoader());
+
+
+            getMoneySound = Globals.content.Load<SoundEffect>("Sounds\\Effects\\GetMoney");
+            woodcutterActionSound = Globals.content.Load<SoundEffect>("Sounds\\Effects\\WoodcutterActionSound");
+
+            GameGlobals.PassHeroes = AddCollector;
             GameGlobals.PassWoodcutter = AddWoodcutter;
             GameGlobals.PassVegetable = AddVegetable;
 
-            AddVegetable(new Vegetable(new Vector2(288, 200)));
-            AddVegetable(new Vegetable(new Vector2(335, 184)));
-            AddVegetable(new Vegetable(new Vector2(380, 195)));
-            AddVegetable(new Vegetable(new Vector2(425, 179)));
-            AddVegetable(new Vegetable(new Vector2(470, 190)));
-            AddVegetable(new Vegetable(new Vector2(520, 200)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(288, 200)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(335, 184)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(380, 195)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(425, 179)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(470, 190)));
+            AddVegetable(new Vegetable(vegetableSpriteSheet, new Vector2(520, 200)));
 
-            ui = new UI(AddHero, AddWoodcutter);
+            AddTree(new Tree(treeSpriteSheet, new Vector2(596, 91)));
+            AddTree(new Tree(treeSpriteSheet, new Vector2(723, 91)));
+            AddTree(new Tree(treeSpriteSheet, new Vector2(849, 91)));
+
+            ui = new UI(AddCollector, AddWoodcutter, font, finance, pressKey);
         }
 
         public virtual void Update(Vector2 backgroundOffset, Vector2 heroOffset, float deltaSeconds)
@@ -59,35 +82,53 @@ namespace HeroReturn
 
             for(int i = 0; i < heroes.Count; i++)
             {
-                heroes[i].Update(deltaSeconds);
+                heroes[i].Update(deltaSeconds, vegetables);
             }
 
             for (int i = 0; i < woodcutters.Count; i++)
             {
-                woodcutters[i].Update(heroOffset);
+                woodcutters[i].Update(deltaSeconds, trees);
             }
 
             for(int i = 0; i < vegetables.Count; i++)
             {
-                vegetables[i].Update(heroOffset);
+                vegetables[i].Update(deltaSeconds, 1);
+            }
+
+            for (int i = 0; i < trees.Count; i++)
+            {
+                trees[i].Update(deltaSeconds, 1);
             }
 
             ui.Update(this);
         }
 
-        public virtual void AddHero(object info)
+        public virtual void AddCollector(object info)
         {
-            heroes.Add(new Collector(collectorSpriteSheetWalk, collectorSpriteSheetAction));
+            if(finance.worldMoney >= FinanceStats.CollectorCost)
+            {
+                finance.worldMoney -= FinanceStats.CollectorCost;
+                heroes.Add(new Collector(collectorWalkSpriteSheet, collectorActionSpriteSheet, getMoneySound, finance));
+            }
         }
 
         public virtual void AddWoodcutter(object info)
         {
-            woodcutters.Add(new Woodcutter(new Vector2(139, 194)));
+            if (finance.worldMoney >= FinanceStats.WoodcutterCost)
+            {
+                finance.worldMoney -= FinanceStats.WoodcutterCost;
+                woodcutters.Add(new Woodcutter(woodcutterWalkSpriteSheet, woodcutterActionSpriteSheet, getMoneySound, woodcutterActionSound, finance));
+            }
         }
 
         public virtual void AddVegetable(object info)
         {
             vegetables.Add((Vegetable) info);
+        }
+
+        public virtual void AddTree(object info)
+        {
+            trees.Add((Tree)info);
         }
 
         public virtual void Draw(Vector2 backgroundOffset, Vector2 heroOffset)
@@ -96,7 +137,12 @@ namespace HeroReturn
 
             for (int i = 0; i < vegetables.Count; i++)
             {
-                vegetables[i].Draw(heroOffset, Vector2.Zero, vegetables[i].frame);
+                vegetables[i].Draw();
+            }
+
+            for (int i = 0; i < trees.Count; i++)
+            {
+                trees[i].Draw();
             }
 
             for (int i = 0; i < heroes.Count; i++)
@@ -106,7 +152,7 @@ namespace HeroReturn
 
             for (int i = 0; i < woodcutters.Count; i++)
             {
-                woodcutters[i].Draw(heroOffset, Vector2.Zero, woodcutters[i].frame);
+                woodcutters[i].Draw();
             }
 
             ui.Draw();

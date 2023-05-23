@@ -18,9 +18,13 @@ public class Gameplay
 {
     int playState;
     World world;
-    public Gameplay()
+    FinanceController financeController;
+    private SoundEffect pressKey;
+    public Gameplay(FinanceController finance, SoundEffect pressKey)
     {
+        financeController = finance;
         playState = 0;
+        this.pressKey = pressKey;
         ResetWorld(null);
     }
 
@@ -33,7 +37,7 @@ public class Gameplay
     }
     public void ResetWorld(object info)
     {
-        world = new World();
+        world = new World(financeController, pressKey);
     }
 
     public void Draw()

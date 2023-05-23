@@ -6,8 +6,6 @@
   <SourceFiles>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Game.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu.png</File>
-    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu1.bmp</File>
-    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Menu.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Smithy.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Upgrade_FirstLvl.bmp</File>
@@ -19,22 +17,52 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_0_1_3.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_Action.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Woodcutter/Woodcutter_Walk.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Misc/cursor-active.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Misc/cursor.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Tree/Trees.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_3.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/OBJECTS_Vegetable_1_4.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/Vegetable/Vegetables.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Back.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Left.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Map.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_New_Game.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Right.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_First.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Second.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Third.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Summon_Collector.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Summon_Woodcutter.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Upgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/MoneyIcon.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Fonts/WorldMoneyFont.spritefont</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Birds.wav</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Door.mp3</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/GetMoney.mp3</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/PressKey.mp3</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/WoodcutterActionSound.wav</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Music/MenuMusic.mp3</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -1,0 +1,19 @@
+{
+  "textureAtlas": {
+    "texture": "Woodcutter_Action.png",
+    "regionWidth": 117,
+    "regionHeight": 111
+  },
+  "cycles": {
+    "rightAction": {
+      "frames": [0,1,2],
+      "isLooping": false,
+      "frameDuration": 0.2
+    },
+    "leftAction": {
+      "frames": [ 3, 4, 5 ],
+      "isLooping": false,
+      "frameDuration": 0.2
+    }
+  }
+}

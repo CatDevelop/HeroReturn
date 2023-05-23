@@ -37,30 +37,6 @@
 /processorParam:TextureFormat=Color
 /build:2D/Backgrounds/BACKGROUND_MainMenu.png
 
-#begin 2D/Backgrounds/BACKGROUND_MainMenu1.bmp
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:2D/Backgrounds/BACKGROUND_MainMenu1.bmp
-
-#begin 2D/Backgrounds/BACKGROUND_MainMenu2.bmp
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:2D/Backgrounds/BACKGROUND_MainMenu2.bmp
-
 #begin 2D/Backgrounds/BACKGROUND_Menu.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -193,6 +169,30 @@
 /processorParam:TextureFormat=Color
 /build:2D/Heroes/Woodcutter/Woodcutter_0_1_3.bmp
 
+#begin 2D/Heroes/Woodcutter/Woodcutter_Action.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Woodcutter/Woodcutter_Action.png
+
+#begin 2D/Heroes/Woodcutter/Woodcutter_Walk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Woodcutter/Woodcutter_Walk.png
+
 #begin 2D/Misc/cursor-active.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -216,6 +216,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/Misc/cursor.png
+
+#begin 2D/Objects/Tree/Trees.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Objects/Tree/Trees.png
 
 #begin 2D/Objects/Vegetable/OBJECTS_Vegetable_1_1.bmp
 /importer:TextureImporter
@@ -265,6 +277,30 @@
 /processorParam:TextureFormat=Color
 /build:2D/Objects/Vegetable/OBJECTS_Vegetable_1_4.bmp
 
+#begin 2D/Objects/Vegetable/Vegetables.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Objects/Vegetable/Vegetables.png
+
+#begin 2D/UI/BTN_Back.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Back.png
+
 #begin 2D/UI/BTN_Left.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -313,6 +349,42 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Right.png
 
+#begin 2D/UI/BTN_Smithy_First.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_First.png
+
+#begin 2D/UI/BTN_Smithy_Second.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_Second.png
+
+#begin 2D/UI/BTN_Smithy_Third.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_Third.png
+
 #begin 2D/UI/BTN_Smithy.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -360,4 +432,59 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Upgrade.png
+
+#begin 2D/UI/MoneyIcon.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/MoneyIcon.png
+
+#begin Fonts/WorldMoneyFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/WorldMoneyFont.spritefont
+
+#begin Sounds/Effects/Birds.wav
+/importer:WavImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/Birds.wav
+
+#begin Sounds/Effects/Door.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/Door.mp3
+
+#begin Sounds/Effects/GetMoney.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/GetMoney.mp3
+
+#begin Sounds/Effects/PressKey.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/PressKey.mp3
+
+#begin Sounds/Effects/WoodcutterActionSound.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/WoodcutterActionSound.wav
+
+#begin Sounds/Music/MenuMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sounds/Music/MenuMusic.mp3
 

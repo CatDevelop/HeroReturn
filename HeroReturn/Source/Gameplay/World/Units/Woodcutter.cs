@@ -13,59 +13,137 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.IO;
 using System.Diagnostics;
+using MonoGame.Extended.Sprites;
 #endregion
 namespace HeroReturn;
 
-public class Woodcutter : Basic2d
+public class Woodcutter : Unit
 {
-    private int direction = 1;
-    public int frame = 1;
-    public int frameDelay = 0;
-    public Woodcutter(Vector2 pos) : 
-        base("2D\\Heroes\\Woodcutter\\Woodcutter_0_1_1",
-        "2D\\Heroes\\Woodcutter\\Woodcutter_0_1_2",
-        "2D\\Heroes\\Woodcutter\\Woodcutter_0_1_3", 
-        pos, 
-        new Vector2(45, 90))
+    int direction = 1;
+    private AnimatedSprite walkSprite;
+    private AnimatedSprite actionSprite;
+    private SoundEffect getMoneySound;
+    private SoundEffect woodcutterActionSound;
+
+    public bool isCollect = false;
+    private SpriteSheetAnimation actionAnimation;
+    private Tree collectTree;
+    public int collectTreesCount = 0;
+    public int doAction = 0;
+
+    public FinanceController finance;
+    public Woodcutter(SpriteSheet woodcutterWalkSpriteSheet, SpriteSheet woodcutterActionSpriteSheet, SoundEffect getMoneySound, SoundEffect woodcutterActionSound, FinanceController financeController) : 
+        base(woodcutterWalkSpriteSheet, woodcutterActionSpriteSheet, "rightWalk", new Vector2(139, 194), new Vector2(22.5f, 45))
     {
- 
+        walkSprite = new AnimatedSprite(woodcutterWalkSpriteSheet);
+        actionSprite = new AnimatedSprite(woodcutterActionSpriteSheet);
+        sprite = walkSprite;
+        sprite.Play("rightWalk");
+        finance = financeController;
+        this.getMoneySound = getMoneySound;
+        this.woodcutterActionSound = woodcutterActionSound;
     }
 
-    public override void Update(Vector2 offset)
+    public void Update(float deltaSeconds, List<Tree> treesArray)
     {
-        base.Update(offset);
-        if(frameDelay == 15)
+        base.UpdateUnit(deltaSeconds);
+
+        if (collectTreesCount < 1 && !isCollect)
+            foreach (var tree in treesArray)
+            {
+                if ((direction == 1 && position.X == tree.position.X - 20) || (direction == 2 && position.X == tree.position.X + 140))
+                    if (tree.animation.IsComplete)
+                        if (!tree.isCollecting)
+                        {
+                            doAction = 0;
+                            sprite = actionSprite;
+                            if (direction == 1)
+                                actionAnimation = sprite.Play("rightAction");
+                            else 
+                                actionAnimation = sprite.Play("leftAction");
+                            offset = new Vector2(22.5f, 45);
+                            //offset = new Vector2(58.5f, 55.5f);
+                            
+                            tree.isCollecting = true;
+                            isCollect = true;
+                            collectTree = tree;
+                        }
+            }
+
+        if (isCollect && doAction == 5)
         {
-            frame = frame % 3 + 1;
-            frameDelay = 0;
-        }
-           
+            switch (collectTree.level)
+            {
+                case 1:
+                    collectTree.animation = collectTree.sprite.Play("firstLevel");
+                    break;
+                case 2:
+                    collectTree.animation = collectTree.sprite.Play("secondLevel");
+                    break;
+                case 3:
+                    collectTree.animation = collectTree.sprite.Play("thirdLevel");
+                    break;
+            }
+            collectTree.animation.Rewind();
+            collectTree.frameDelay = 0;
+            collectTree.isCollecting = false;
 
-        if (direction == 1)
+            sprite = walkSprite;
+            if (direction == 1)
+                sprite.Play("rightWalk");
+            else
+                sprite.Play("leftWalk");
+            offset = new Vector2(22.5f, 45);
+
+            isCollect = false;
+            collectTreesCount += 1;
+        }
+
+        if (isCollect && actionAnimation.IsComplete)
         {
-            pos.X += 1;
+            woodcutterActionSound.Play();
+            doAction += 1;
+            if (direction == 1)
+                actionAnimation = sprite.Play("rightAction");
+            else
+                actionAnimation = sprite.Play("leftAction");
         }
+            
 
-        frameDelay += 1;
 
-        
+        if (!isCollect && direction == 1)
+            position.X += 1;
 
-        Debug.WriteLine(frame);
+        if (!isCollect && direction == 2)
+            position.X -= 1;
 
-        if (direction == 2)
-            pos.X -= 1;
-
-        if (pos.X > 940)
+        if (position.X > 940)
+        {
+            sprite.Play("leftWalk");
             direction = 2;
+        }
 
-        if (pos.X < 100)
+        if (collectTreesCount > 0)
+        {
+            sprite.Play("leftWalk");
+            direction = 2;
+        }
+
+
+        if (position.X < 100)
+        {
+            if (collectTreesCount != 0)
+                getMoneySound.Play();
+            finance.worldMoney += 50 * collectTreesCount;
+            sprite.Play("rightWalk");
             direction = 1;
+            collectTreesCount = 0;
+        }       
     }
 
-    public override void Draw(Vector2 offset)
+    public override void Draw()
     {
-        Debug.WriteLine("DRAW HERO " + frame);
-        base.Draw(offset, Vector2.Zero, frame);
+        base.Draw();
     }
 }
 

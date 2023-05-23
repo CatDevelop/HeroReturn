@@ -32,7 +32,7 @@ public class Unit
         this.offset = offset;
     }
 
-    public virtual void Update(float deltaSeconds)
+    public virtual void UpdateUnit(float deltaSeconds)
     {
         sprite.Update(deltaSeconds);
     }

@@ -2,10 +2,11 @@
 using System.Linq;
 using System.Reflection.Metadata;
 using HeroReturn;
-using HeroReturn.Enums;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using MonoGame.Extended.Content;
 using MonoGame.Extended.Serialization;
 using MonoGame.Extended.Sprites;
@@ -28,12 +29,27 @@ public class Game1 : Game
     Basic2d upgradeBackgroundSecondLevel;
     Basic2d upgradeBackgroundThirdLevel;
 
+    Song menuMusic;
+    public SoundEffect door;
+    public SoundEffect pressKey;
+
     public Button2d NewGameButton;
     public Button2d LeftButton;
     public Button2d RightButton;
     public Button2d SmithyButton;
     public Button2d UpgradeButton;
     public Button2d MapButton;
+    public Button2d BackSmithyButton;
+
+    public Button2d SmithyFirstVegetableUpgradeButton;
+    public Button2d SmithySecondVegetableUpgradeButton;
+    public Button2d SmithyThirdVegetableUpgradeButton;
+
+    public Button2d SmithyFirstTreeUpgradeButton;
+    public Button2d SmithySecondTreeUpgradeButton;
+    public Button2d SmithyThirdTreeUpgradeButton;
+
+    public FinanceController finance;
 
     int menuState = 0;
     int menuOffset = 0;
@@ -68,6 +84,7 @@ public class Game1 : Game
 
     protected override void LoadContent()
     {
+        finance = new(450, 200);
         base.LoadContent();
         Globals.content = this.Content;
         Globals.spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -78,6 +95,14 @@ public class Game1 : Game
         smithyBackground = new Basic2d("2D\\Backgrounds\\BACKGROUND_Smithy", new Vector2(648, 360), new Vector2(1296, 720));
         upgradeBackgroundFirstLevel = new Basic2d("2D\\Backgrounds\\BACKGROUND_Upgrade_FirstLvl", new Vector2(648, 360), new Vector2(1296, 720));
 
+        menuMusic = Content.Load<Song>("Sounds\\Music\\MenuMusic");
+        door = Globals.content.Load<SoundEffect>("Sounds\\Effects\\Door");
+        pressKey = Globals.content.Load<SoundEffect>("Sounds\\Effects\\PressKey");
+
+        MediaPlayer.Play(menuMusic);
+        MediaPlayer.IsRepeating = true;
+        MediaPlayer.MediaStateChanged += MediaPlayer_MediaStateChanged;
+
         // 0 - 3224
         // 1 - 1920
         // 2 - 700
@@ -86,48 +111,88 @@ public class Game1 : Game
             new Vector2(423, 246),
             new Vector2(431, 109),
             GoTo,
-            GameState.GameMenu
+            GameState.GameMenu,
+            pressKey
         );
 
         LeftButton = new Button2d("2D\\UI\\BTN_Left",
             new Vector2(36, 324),
             new Vector2(45, 72),
             LeftGameMenu,
-            null
+            null,
+            pressKey
         );
 
         RightButton = new Button2d("2D\\UI\\BTN_Right",
             new Vector2(1225, 324),
             new Vector2(45, 72),
             RightGameMenu,
-            null
+            null,
+            pressKey
         );
 
         SmithyButton = new Button2d("2D\\UI\\BTN_Smithy",
             new Vector2(1120, 10),
-            new Vector2(96, 126),
+            new Vector2(116, 126),
             GoTo,
-            GameState.FirstUpgrade
+            GameState.FirstUpgrade,
+            pressKey
         );
 
         UpgradeButton = new Button2d("2D\\UI\\BTN_Upgrade",
-            new Vector2(1120, 10),
-            new Vector2(152, 124),
+            new Vector2(1100, 10),
+            new Vector2(172, 124),
             GoTo,
-            GameState.SecondUpgrade
+            GameState.SecondUpgrade,
+            pressKey
         );
 
         MapButton = new Button2d("2D\\UI\\BTN_Map",
             new Vector2(1120, 10),
             new Vector2(96, 126),
             GoTo,
-        GameState.Game
+            GameState.Game,
+            pressKey
         );
+
+        SmithyFirstVegetableUpgradeButton = new Button2d("2D\\UI\\BTN_Smithy_First",
+            new Vector2(1120, 10),
+            new Vector2(96, 96),
+            GoTo,
+            GameState.Game,
+            pressKey
+        );
+
+        SmithySecondVegetableUpgradeButton = new Button2d("2D\\UI\\BTN_Smithy_Second",
+            new Vector2(1120, 10),
+            new Vector2(96, 96),
+            GoTo,
+            GameState.Game,
+            pressKey
+        );
+
+
+        SmithyThirdVegetableUpgradeButton = new Button2d("2D\\UI\\BTN_Smithy_Third",
+            new Vector2(1120, 10),
+            new Vector2(96, 96),
+            GoTo,
+            GameState.Game,
+            pressKey
+        );
+
+        BackSmithyButton = new Button2d("2D\\UI\\BTN_Back",
+            new Vector2(925, 630),
+            new Vector2(140, 37),
+            GoTo,
+            GameState.GameMenu,
+            pressKey
+        );
+
 
         Globals.keyboard = new McKeyboard();
         Globals.mouse = new McMouseControl();
 
-        gameplay = new Gameplay();
+        gameplay = new Gameplay(finance, pressKey);
 
         (money, act, houseUpgrade, treesUpdate, vegetableUpgrade) = Engine.MetaData.ReadData();
 
@@ -138,6 +203,11 @@ public class Game1 : Game
     //{
     //  gameState = GameState.GameMenu;
     //}
+
+    void MediaPlayer_MediaStateChanged(object sender, System.EventArgs e)
+    {
+        MediaPlayer.Volume -= 0.1f;
+    }
 
     private void GoTo(object i)
     {
@@ -192,12 +262,22 @@ public class Game1 : Game
                 gameplay.Update(deltaSeconds);
                 break;
             case (GameState.FirstUpgrade):
+                if (MediaPlayer.State == MediaState.Playing)
+                {
+                    MediaPlayer.Stop();
+                    door.Play();
+                }
+                BackSmithyButton.Update(new Vector2(70, 18.5f));
 
                 break;
             case (GameState.SecondUpgrade):
-
+                if(MediaPlayer.State == MediaState.Stopped)
+                    MediaPlayer.Play(menuMusic);
                 break;
             case (GameState.GameMenu):
+                if (MediaPlayer.State == MediaState.Stopped)
+                    MediaPlayer.Play(menuMusic);
+
                 if (gameMenuMove == 1)
                     gameMenuOffset -= 8;
 
@@ -261,9 +341,6 @@ public class Game1 : Game
         
         Globals.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 
-        
-
-        
 
         base.Draw(gameTime);
 
@@ -280,7 +357,9 @@ public class Game1 : Game
                 break;
 
             case (GameState.FirstUpgrade):
+              
                 smithyBackground.Draw(new Vector2(0, 0));
+                BackSmithyButton.Draw(Vector2.Zero);
                 break;
 
             case (GameState.SecondUpgrade):
