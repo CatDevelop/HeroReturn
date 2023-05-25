@@ -31,15 +31,15 @@ public class Woodcutter : Unit
     public int collectTreesCount = 0;
     public int doAction = 0;
 
-    public FinanceController finance;
-    public Woodcutter(SpriteSheet woodcutterWalkSpriteSheet, SpriteSheet woodcutterActionSpriteSheet, SoundEffect getMoneySound, SoundEffect woodcutterActionSound, FinanceController financeController) : 
+    public GameStats gameStats;
+    public Woodcutter(SpriteSheet woodcutterWalkSpriteSheet, SpriteSheet woodcutterActionSpriteSheet, SoundEffect getMoneySound, SoundEffect woodcutterActionSound, GameStats gameStats) : 
         base(woodcutterWalkSpriteSheet, woodcutterActionSpriteSheet, "rightWalk", new Vector2(139, 194), new Vector2(22.5f, 45))
     {
         walkSprite = new AnimatedSprite(woodcutterWalkSpriteSheet);
         actionSprite = new AnimatedSprite(woodcutterActionSpriteSheet);
         sprite = walkSprite;
         sprite.Play("rightWalk");
-        finance = financeController;
+        this.gameStats = gameStats;
         this.getMoneySound = getMoneySound;
         this.woodcutterActionSound = woodcutterActionSound;
     }
@@ -93,7 +93,6 @@ public class Woodcutter : Unit
                 sprite.Play("rightWalk");
             else
                 sprite.Play("leftWalk");
-            offset = new Vector2(22.5f, 45);
 
             isCollect = false;
             collectTreesCount += 1;
@@ -134,7 +133,13 @@ public class Woodcutter : Unit
         {
             if (collectTreesCount != 0)
                 getMoneySound.Play();
-            finance.worldMoney += 50 * collectTreesCount;
+
+            if(gameStats.treesUpgrade == 1)
+                gameStats.finance.worldMoney += FinanceStats.TreeFirstLevelCost * collectTreesCount;
+            if (gameStats.treesUpgrade == 2)
+                gameStats.finance.worldMoney += FinanceStats.TreeSecondLevelCost * collectTreesCount;
+            if (gameStats.treesUpgrade == 3)
+                gameStats.finance.worldMoney += FinanceStats.TreeThirdLevelCost * collectTreesCount;
             sprite.Play("rightWalk");
             direction = 1;
             collectTreesCount = 0;

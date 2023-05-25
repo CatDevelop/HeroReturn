@@ -29,16 +29,16 @@ public class Collector : Unit
     public int collectVegetablesCount = 0;
     private SoundEffect getMoneySound;
 
-    public FinanceController finance; 
+    public GameStats gameStats; 
 
-    public Collector(SpriteSheet collectorWalkSpriteSheet, SpriteSheet collectorActionSpriteSheet, SoundEffect getMoneySound, FinanceController financeController) : 
+    public Collector(SpriteSheet collectorWalkSpriteSheet, SpriteSheet collectorActionSpriteSheet, SoundEffect getMoneySound, GameStats gameStats) : 
         base(collectorWalkSpriteSheet, collectorActionSpriteSheet, "rightWalk", new Vector2(139, 194), new Vector2(28.5f, 46.5f))
     {
         walkSprite = new AnimatedSprite(collectorWalkSpriteSheet);
         actionSprite = new AnimatedSprite(collectorActionSpriteSheet);
         sprite = walkSprite;
         sprite.Play("rightWalk");
-        finance = financeController;
+        this.gameStats = gameStats;
         this.getMoneySound = getMoneySound;
     }
 
@@ -117,7 +117,12 @@ public class Collector : Unit
         {
             if (collectVegetablesCount != 0)
                 getMoneySound.Play();
-            finance.worldMoney += 10 * collectVegetablesCount;
+            if (gameStats.vegetableUpgrade == 1)
+                gameStats.finance.worldMoney += FinanceStats.VegetableFirstLevelCost * collectVegetablesCount;
+            if (gameStats.vegetableUpgrade == 2)
+                gameStats.finance.worldMoney += FinanceStats.VegetableSecondLevelCost * collectVegetablesCount;
+            if (gameStats.vegetableUpgrade == 3)
+                gameStats.finance.worldMoney += FinanceStats.VegetableThirdLevelCost * collectVegetablesCount;
             collectVegetablesCount = 0;
             sprite.Play("rightWalk");
             direction = 1;

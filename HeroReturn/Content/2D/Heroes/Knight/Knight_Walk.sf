@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "Knight_Walk.png",
+    "regionWidth": 45,
+    "regionHeight": 93
+  },
+  "cycles": {
+    "walk": {
+      "frames": [0,1,2],
+      "isLooping": true,
+      "frameDuration": 0.25
+    }
+  }
+}

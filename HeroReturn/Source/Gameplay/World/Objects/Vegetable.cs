@@ -26,7 +26,6 @@ public class Vegetable : Object
     public Vegetable(SpriteSheet vegetableSpriteSheet, Vector2 pos) :
         base(vegetableSpriteSheet, "firstLevel", pos, new Vector2(22.5f, 24))
     {
-
     }
 
     public void Update(float deltaSeconds, int level)
@@ -56,7 +55,6 @@ public class Vegetable : Object
                     animation = sprite.Play("thirdLevel");
                     break;
             }
-
         }
 
 

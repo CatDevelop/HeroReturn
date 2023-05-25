@@ -18,14 +18,16 @@ public class Gameplay
 {
     int playState;
     World world;
-    FinanceController financeController;
+    GameStats gameStats;
     private SoundEffect pressKey;
-    public Gameplay(FinanceController finance, SoundEffect pressKey)
+    private PassObject GoTo;
+    public Gameplay(GameStats gameStats, SoundEffect pressKey, PassObject GoTo)
     {
-        financeController = finance;
+        this.gameStats = gameStats;
         playState = 0;
         this.pressKey = pressKey;
-        ResetWorld(null);
+        this.GoTo = GoTo;
+        ResetWorld(null); 
     }
 
     public void Update(float deltaSeconds)
@@ -37,7 +39,7 @@ public class Gameplay
     }
     public void ResetWorld(object info)
     {
-        world = new World(financeController, pressKey);
+        world = new World(gameStats, pressKey, GoTo);
     }
 
     public void Draw()

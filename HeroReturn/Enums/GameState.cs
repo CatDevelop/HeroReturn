@@ -6,6 +6,23 @@ using System.Threading.Tasks;
 
 namespace HeroReturn
 {
+    public class GameStats
+    {
+        public FinanceController finance;
+        public int act;
+        public int houseUpgrade;
+        public int vegetableUpgrade;
+        public int treesUpgrade;
+        public GameStats(FinanceController finance, int act, int houseUpgrade, int vegetableUpgrade, int treesUpgrade) 
+        { 
+            this.finance = finance;
+            this.act = act;
+            this.houseUpgrade = houseUpgrade;
+            this.vegetableUpgrade = vegetableUpgrade;
+            this.treesUpgrade = treesUpgrade;
+        }
+    }
+
     internal enum GameState
     {
 
@@ -17,6 +34,16 @@ namespace HeroReturn
         SecondUpgrade
     }
 
+    internal enum SelectSmithy
+    {
+        firstLevelVegetable,
+        secondLevelVegetable,
+        thirdLevelVegetable,
+        firstLevelTree,
+        secondLevelTree,
+        thirdLevelTree
+    }
+
     public class FinanceStats
     {
         public const int CollectorCost = 100;
@@ -24,7 +51,15 @@ namespace HeroReturn
         public const int KnightCost = 100;
         public const int ArcherCost = 300;
 
-        public const int VegetableUpdateFirstLevelCost = 50;
+        public const int VegetableFirstLevelCost = 10; // Цена при продаже 1 овоща первого уровня
+        public const int VegetableSecondLevelCost = 20;
+        public const int VegetableThirdLevelCost = 30;
+
+        public const int TreeFirstLevelCost = 50; // Цена при продаже 1 дерева первого уровня
+        public const int TreeSecondLevelCost = 80;
+        public const int TreeThirdLevelCost = 100;
+
+        public const int VegetableUpdateFirstLevelCost = 50; // Цена покупки улучшения овоща первого уровня
         public const int VegetableUpdateSecondLevelCost = 100;
         public const int VegetableUpdateThirdLevelCost = 200;
 

@@ -4,10 +4,52 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Back.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Smithy_Buying.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Upgrade_Buying.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Upgrade_House.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Upgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/FirstLevelHouseUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SecondLevelHouseUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/ThirdLevelHouseUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Map_Back.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Map.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/OBJECTS_FirstHouse.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/OBJECTS_SecondHouse.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Objects/OBJECTS_ThirdHouse.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Victory.wav</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Defeat.wav</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Music/GameMusic.mp3</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Cloud_Act1.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Cloud_Act2.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Cloud_Act3.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/UI_Cloud_Act4.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_V.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_X.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Map.bmp</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Lizard/Lizard_Action.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Lizard/Lizard_Walk.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/SwordAttack.wav</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Summon_Knight.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Knight/Knight_Action.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Knight/Knight_Walk.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_BuyUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/CoinsIcon.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Fonts/SmithyUpgradeCost.spritefont</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithyFirstTreeUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithyFirstVegetableUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithySecondTreeUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithySecondVegetableUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithyThirdTreeUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/SmithyThirdVegetableUpgrade.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Continue_Game.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Smithy.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_First_On.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Second_On.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Third_On.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_First.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Second.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Smithy_Third.png</File>
+    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Back.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Music/MenuMusic.mp3</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/PressKey.mp3</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/Sounds/Effects/Door.mp3</File>
@@ -33,7 +75,6 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_MainMenu2.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Menu.png</File>
-    <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Smithy.png</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Upgrade_FirstLvl.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_0_1_1.bmp</File>
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Heroes/Collector/Collector_0_1_2.bmp</File>
@@ -53,6 +94,7 @@
     <File>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/UI/BTN_Summon_Woodcutter.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>Fonts/WorldMoneyFont.spritefont</File>
   </DestFiles>

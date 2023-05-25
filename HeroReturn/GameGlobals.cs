@@ -16,6 +16,6 @@ namespace HeroReturn;
 
 public class GameGlobals
 {
-    public static PassObject PassHeroes, PassWoodcutter, PassVegetable;
+    public static PassObject PassHeroes, PassWoodcutter, PassKnight, PassVegetable;
 }
 

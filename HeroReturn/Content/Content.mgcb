@@ -37,6 +37,18 @@
 /processorParam:TextureFormat=Color
 /build:2D/Backgrounds/BACKGROUND_MainMenu.png
 
+#begin 2D/Backgrounds/BACKGROUND_Map.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Backgrounds/BACKGROUND_Map.png
+
 #begin 2D/Backgrounds/BACKGROUND_Menu.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -61,7 +73,7 @@
 /processorParam:TextureFormat=Color
 /build:2D/Backgrounds/BACKGROUND_Smithy.png
 
-#begin 2D/Backgrounds/BACKGROUND_Upgrade_FirstLvl.bmp
+#begin 2D/Backgrounds/BACKGROUND_Upgrade.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -71,7 +83,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:2D/Backgrounds/BACKGROUND_Upgrade_FirstLvl.bmp
+/build:2D/Backgrounds/BACKGROUND_Upgrade.png
 
 #begin 2D/Heroes/Collector/Collector_0_1_1.bmp
 /importer:TextureImporter
@@ -132,6 +144,54 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/Heroes/Collector/Collector_Walk.png
+
+#begin 2D/Heroes/Knight/Knight_Action.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Knight/Knight_Action.png
+
+#begin 2D/Heroes/Knight/Knight_Walk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Knight/Knight_Walk.png
+
+#begin 2D/Heroes/Lizard/Lizard_Action.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Lizard/Lizard_Action.png
+
+#begin 2D/Heroes/Lizard/Lizard_Walk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Heroes/Lizard/Lizard_Walk.png
 
 #begin 2D/Heroes/Woodcutter/Woodcutter_0_1_1.bmp
 /importer:TextureImporter
@@ -217,6 +277,42 @@
 /processorParam:TextureFormat=Color
 /build:2D/Misc/cursor.png
 
+#begin 2D/Objects/OBJECTS_FirstHouse.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Objects/OBJECTS_FirstHouse.bmp
+
+#begin 2D/Objects/OBJECTS_SecondHouse.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Objects/OBJECTS_SecondHouse.bmp
+
+#begin 2D/Objects/OBJECTS_ThirdHouse.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/Objects/OBJECTS_ThirdHouse.bmp
+
 #begin 2D/Objects/Tree/Trees.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -301,6 +397,42 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Back.png
 
+#begin 2D/UI/BTN_Back.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Back.png
+
+#begin 2D/UI/BTN_BuyUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_BuyUpgrade.png
+
+#begin 2D/UI/BTN_Continue_Game.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Continue_Game.png
+
 #begin 2D/UI/BTN_Left.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -312,6 +444,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Left.png
+
+#begin 2D/UI/BTN_Map_Back.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Map_Back.png
 
 #begin 2D/UI/BTN_Map.png
 /importer:TextureImporter
@@ -349,6 +493,18 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Right.png
 
+#begin 2D/UI/BTN_Smithy_First_On.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_First_On.png
+
 #begin 2D/UI/BTN_Smithy_First.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -361,6 +517,18 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Smithy_First.png
 
+#begin 2D/UI/BTN_Smithy_Second_On.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_Second_On.png
+
 #begin 2D/UI/BTN_Smithy_Second.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -372,6 +540,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Smithy_Second.png
+
+#begin 2D/UI/BTN_Smithy_Third_On.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Smithy_Third_On.png
 
 #begin 2D/UI/BTN_Smithy_Third.png
 /importer:TextureImporter
@@ -409,6 +589,18 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Summon_Collector.png
 
+#begin 2D/UI/BTN_Summon_Knight.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Summon_Knight.png
+
 #begin 2D/UI/BTN_Summon_Woodcutter.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -420,6 +612,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Summon_Woodcutter.png
+
+#begin 2D/UI/BTN_Upgrade_House.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_Upgrade_House.png
 
 #begin 2D/UI/BTN_Upgrade.png
 /importer:TextureImporter
@@ -433,6 +637,54 @@
 /processorParam:TextureFormat=Color
 /build:2D/UI/BTN_Upgrade.png
 
+#begin 2D/UI/BTN_V.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_V.bmp
+
+#begin 2D/UI/BTN_X.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/BTN_X.bmp
+
+#begin 2D/UI/CoinsIcon.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/CoinsIcon.png
+
+#begin 2D/UI/FirstLevelHouseUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/FirstLevelHouseUpgrade.png
+
 #begin 2D/UI/MoneyIcon.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -444,6 +696,181 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:2D/UI/MoneyIcon.png
+
+#begin 2D/UI/SecondLevelHouseUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SecondLevelHouseUpgrade.png
+
+#begin 2D/UI/SmithyFirstTreeUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithyFirstTreeUpgrade.png
+
+#begin 2D/UI/SmithyFirstVegetableUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithyFirstVegetableUpgrade.png
+
+#begin 2D/UI/SmithySecondTreeUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithySecondTreeUpgrade.png
+
+#begin 2D/UI/SmithySecondVegetableUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithySecondVegetableUpgrade.png
+
+#begin 2D/UI/SmithyThirdTreeUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithyThirdTreeUpgrade.png
+
+#begin 2D/UI/SmithyThirdVegetableUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/SmithyThirdVegetableUpgrade.png
+
+#begin 2D/UI/ThirdLevelHouseUpgrade.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/ThirdLevelHouseUpgrade.png
+
+#begin 2D/UI/UI_Cloud_Act1.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Cloud_Act1.bmp
+
+#begin 2D/UI/UI_Cloud_Act2.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Cloud_Act2.bmp
+
+#begin 2D/UI/UI_Cloud_Act3.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Cloud_Act3.bmp
+
+#begin 2D/UI/UI_Cloud_Act4.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Cloud_Act4.bmp
+
+#begin 2D/UI/UI_Smithy_Buying.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Smithy_Buying.png
+
+#begin 2D/UI/UI_Upgrade_Buying.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:2D/UI/UI_Upgrade_Buying.png
+
+#begin Fonts/SmithyUpgradeCost.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/SmithyUpgradeCost.spritefont
 
 #begin Fonts/WorldMoneyFont.spritefont
 /importer:FontDescriptionImporter
@@ -457,6 +884,12 @@
 /processor:SongProcessor
 /processorParam:Quality=Best
 /build:Sounds/Effects/Birds.wav
+
+#begin Sounds/Effects/Defeat.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/Defeat.wav
 
 #begin Sounds/Effects/Door.mp3
 /importer:Mp3Importer
@@ -476,11 +909,29 @@
 /processorParam:Quality=Best
 /build:Sounds/Effects/PressKey.mp3
 
+#begin Sounds/Effects/SwordAttack.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/SwordAttack.wav
+
+#begin Sounds/Effects/Victory.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Effects/Victory.wav
+
 #begin Sounds/Effects/WoodcutterActionSound.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:Sounds/Effects/WoodcutterActionSound.wav
+
+#begin Sounds/Music/GameMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sounds/Music/GameMusic.mp3
 
 #begin Sounds/Music/MenuMusic.mp3
 /importer:Mp3Importer

@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "Lizard_Action.png",
+    "regionWidth": 108,
+    "regionHeight": 81
+  },
+  "cycles": {
+    "action": {
+      "frames": [0,1,2],
+      "isLooping": false,
+      "frameDuration": 0.25
+    }
+  }
+}

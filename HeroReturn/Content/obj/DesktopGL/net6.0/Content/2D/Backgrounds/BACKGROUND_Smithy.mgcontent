@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/2D/Backgrounds/BACKGROUND_Smithy.png</SourceFile>
-  <SourceTime>2023-05-21T03:26:30.7869119+05:00</SourceTime>
+  <SourceTime>2023-05-24T14:37:22.7035714+05:00</SourceTime>
   <DestFile>C:/Users/User/OneDrive/Документы/My works/UrFU/FirstCourse/C#/Game/HeroReturnC/HeroReturn/Content/bin/DesktopGL/Content/2D/Backgrounds/BACKGROUND_Smithy.xnb</DestFile>
-  <DestTime>2023-05-21T03:56:21.1237796+05:00</DestTime>
+  <DestTime>2023-05-24T14:40:17.9342137+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

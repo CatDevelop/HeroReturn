@@ -67,7 +67,7 @@ namespace HeroReturn
 
         public virtual void GetPressedKeys()
         {
-            bool found = false;
+            //bool found = false;
 
             pressedKeys.Clear();
             for (int i = 0; i < newKeyboard.GetPressedKeys().Length; i++)
