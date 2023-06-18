@@ -106,8 +106,6 @@ public class Game1 : Game
     public Button2d GoToFourthAct;
     public Button2d GoToFiveAct;
 
-    //public FinanceController finance;
-
     int menuState = 0;
     int menuOffset = 0;
     bool menuMove = false;
@@ -120,12 +118,6 @@ public class Game1 : Game
     int selectHouse = 1;
 
     GameStats gameStats;
-
-    //int money = 0;
-    //int act = 0;
-    //int houseUpgrade = 0;
-    //int vegetableUpgrade = 0;
-    //int treesUpgrade = 0;
 
     public Game1()
     {
